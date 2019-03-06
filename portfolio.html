@@ -5,59 +5,82 @@
   <meta charset="UTF-8">
   <title>Portfolio | Troy Chandler's Profile </title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Troy Chandler's <br>Profile</br> </a>
-      <nav>
+    
+    <header id="masthead">
+  <nav class="navbar navbar-default navbar-light bg-dark">
+   <a href="index.html" id="logo">Troy Chandler's Profile</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#troysmenu">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="troysmenu"> 
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
+        
       </nav>
+    </nav>
+  </div>
     </div>
+  
   </header>
-
+  <div class="padding">
+  </div>
   <div id="main-container" class="container">
-    <section class="main-section">
+    <section class="main-section row">
       <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="C:\Users\troyk\Desktop\Second Week HW\Assets\Images\Triviagame.jpg" alt="Word Guess">
+      
+      <div class="row">
+      <div class="work col-lg-5 col-md-5 col-sm-5 col-xs-5">
+        <img src="C:\Users\troyk\Desktop\Second Week HW\Bootstrap-Portfolio\Bootstrap-Portfolio\Assets\Images\hangman.jpg"alt="Word Guess">
 
         <h3>Word Guess</h3>
       </div>
-      <div class="work">
-        <img src="C:\Users\troyk\Desktop\Second Week HW\Assets\Images\hangman.jpg" alt="RPG Game">
+      <div class="work col-lg-5 col-md-5 col-sm-5 col-xs-5">
+        <img src="C:\Users\troyk\Desktop\Second Week HW\Bootstrap-Portfolio\Bootstrap-Portfolio\Assets\Images\RPGgame.jpg" alt="RPG Game">
 
         <h3>RPG Game</h3>
       </div>
-      <div class="work">
-        <img src="C:\Users\troyk\Desktop\Second Week HW\Assets\Images\RPGgame.jpg" alt="Trivia Game">
+    </div> 
+    <div class="row">
+      <div class="work col-lg-5 col-md-5 col-sm-5 col-xs-5">
+        <img src="C:\Users\troyk\Desktop\Second Week HW\Bootstrap-Portfolio\Bootstrap-Portfolio\Assets\Images\Triviagame.jpg" alt="Trivia Game">
 
         <h3>Trivia Game</h3>
       </div>
-      <div class="work">
-        <img src="C:\Users\troyk\Desktop\Second Week HW\Assets\Images\Rutgersinfowidget.jpg" alt="Rutgers Info Widget">
+  
+      <div class="work col-lg-5 col-md-5 col-sm-5 col-xs-5">
+        <img src="C:\Users\troyk\Desktop\Second Week HW\Bootstrap-Portfolio\Bootstrap-Portfolio\Assets\Images\Rutgersinfowidget.jpg" alt="Rutgers Info Widget">
 
         <h3>Rutgers Info Widget</h3>
       </div>
-      
-      <div class="work">
-        <img src="C:\Users\troyk\Desktop\Second Week HW\Assets\Images\RPS.jpg" alt="Rock Paper Scissors">
+    </div>
+      <div class="row">
+      <div class="work col-lg-8 col-md-8 col-sm-8 col-xs-8">
+        <img src="C:\Users\troyk\Desktop\Second Week HW\Bootstrap-Portfolio\Bootstrap-Portfolio\Assets\Images\RPS.jpg" alt="Rock Paper Scissors">
 
         <h3>Rock Paper Scissors</h3>
       </div>
+    </div>
 
     </section>
 
   </div>
 
   <footer>
+    <image src="C:\Users\troyk\Desktop\Second Week HW\Bootstrap-Portfolio\Bootstrap-Portfolio\Assets\Images\Github.png"alt="Github" href="github.com" style="width:25px;height:25px">
+    <image src="C:\Users\troyk\Desktop\Second Week HW\Bootstrap-Portfolio\Bootstrap-Portfolio\Assets\Images\Linkden.png" alt="Linkden" style="width:25px;height:25px" href="Linkden.com">
+    <image src="C:\Users\troyk\Desktop\Second Week HW\Bootstrap-Portfolio\Bootstrap-Portfolio\Assets\Images\facebook.png" alt="Facebook" style="width:25px;height:25px" href="Facebook.com">
    
   </footer>
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
