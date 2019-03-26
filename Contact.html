@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact | Troy Chandler </title>
-   <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css">  -->
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 </head>
 
 <body>
@@ -27,55 +28,63 @@
   </header>
 
   <div id="main-container" class="container">
-    <div class="row">
-      <section class="main-section">
-        <h1>Contact</h1>
+    <div class="card">
+    <div class="card-body">
+    <div class="row"> 
+        <h1 style="font-family: 'Orbitron', sans-serif; text-decoration: underline"> Contact Information</h1>
     </div>
-
-    <form id="contact-form" class="row">
+    </div>
+    </div>
+    <br>
+<div class="card">
+    <form id="contact-form" class="row" style="margin-top: 10px; font-family: 'Orbitron', sans-serif;">
       <ul>
         <li>
-          <label for="name">Name</label>
+          <label for="name">Name</label><br>
 
           <input type="text" id="name" name="name" placeholder="John Smith" required="required">
         </li>
+        <br>
         <li>
-          <label for="email">Email</label>
+          <label for="email">Email</label><br>
           <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
         </li>
+        <br>
         <li>
-          <label for="message">Message</label>
-          <textarea id="message" name="message" required="required"></textarea>
+          <label for="message">Message</label> <br>
+          <textarea id="message" name="message" required="required" style="width:60rem"></textarea>
         </li>
-        <li><input type="submit"></li>
+        <br>
+        <input type="submit" style="float:right">
 
       </ul>
   </div>
-
+  </div>
   </form>
 
   </section>
+  <br>
   <footer>
       <nav class="navbar navbar-light rounded mx-auto d-block" style="background-color:grey">
         <div class="row">
           <div class="col-4">
         <a href="https://github.com/">
           <image
-            src="C:\Users\troyk\Desktop\Second Week HW\Bootstrap-Portfolio\Bootstrap-Portfolio\Assets\Images\Github.png"
+            src=".\Assets\Images\Github.png"
             alt="Github" class="rounded mx-auto d-block" style="width:50px;height:50px">
         </a>
         </div>
         <div class="col-4">
         <a href="https://www.linkedin.com">
           <image
-            src="C:\Users\troyk\Desktop\Second Week HW\Bootstrap-Portfolio\Bootstrap-Portfolio\Assets\Images\Linkden.png"
+            src=".\Assets\Images\Linkden.png"
             alt="Linkden" class="rounded mx-auto d-block" style="width:50px;height:50px" href="Linkden.com">
         </a>
         </div>
         <div class="col-4">
         <a href="https://www.facebook.com/">
           <image
-            src="C:\Users\troyk\Desktop\Second Week HW\Bootstrap-Portfolio\Bootstrap-Portfolio\Assets\Images\facebook.png"
+            src=".\Assets\Images\facebook.png"
             alt="Facebook" class="rounded mx-auto d-block" style="width:50px; height:50px" href="Facebook.com">
         </a>
         </div>
