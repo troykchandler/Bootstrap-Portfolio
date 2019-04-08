@@ -1,5 +1,5 @@
  
-  #bottom{
+ #bottom{
     width:100%;
     float:none;
     display:block;
@@ -13,6 +13,7 @@
     font-size: 14px;
     color:blue;
     margin-top:25px;
+    margin-inline-start:left;
   }
   #Row1{
     margin-bottom:25px;
@@ -98,32 +99,3 @@
   }
 
 }
-
-
-@media screen and (min-width: 768px) { }
-
-@media screen and (min-width: 992px) { }
-
-@media screen and (min-width: 1200px) { }
-
-@media screen and (min-width: 576px) { 
-
-}
-
-
-@media screen and (min-width: 768px) { }
-
-@media screen and (min-width: 992px) { }
-
-@media screen and (min-width: 1200px) { }
-
-@media screen and (min-width: 576px) { 
-
-}
-
-
-@media screen and (min-width: 768px) { }
-
-@media screen and (min-width: 992px) { }
-
-@media screen and (min-width: 1200px) { }
